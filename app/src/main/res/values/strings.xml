@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">toolx</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_compass">Compass</string>
+    <string name="title_activity_flashlight">Flashlight</string>
+    <string name="title_activity_metal_detector">Metal Detector</string>
+    <string name="title_activity_unit_convertor">Unit Convertor</string>
+    <string name="title_activity_new">NewActivity</string>
+    <string name="blank"> </string>
+    <string name="cal1">1. Try to stay away from magnetic fields as far as you can.</string>
+    <string name="cal2">2. Put the phone on a flat surface with the display pointing up.</string>
+    <string name="cal3">3. Recalibrate the phones internal compass by waving the phone in a 8 figure motion.</string>
+    <string name="hello">Hello World, MetalDetectorActivity!</string>
+    <string name="magneticField">Magnetic field strength: </string>
+    <string name="high">high</string>
+    <string name="low">low</string>
+    <string name="title_activity_main_activity1">Unit Converter</string>
+    <string name="title_activity_distance">Distance</string>
+    <string name="title_activity_temperature">Temperature</string>
+    <string name="title_activity_weight">Weight</string>
+    <string name="title_activity_area">Area</string>
+
+
+</resources>

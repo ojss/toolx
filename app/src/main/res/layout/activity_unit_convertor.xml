@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_red_light"
+            android:layout_weight="1.0"
+            android:text="Temperature"
+            android:textColor="#ffffff"
+            android:onClick="tListener"
+            android:nestedScrollingEnabled="false" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_orange_dark"
+            android:layout_weight="1.0"
+            android:text="Distance"
+            android:textColor="@android:color/white"
+            android:onClick="dListener" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:text="Weight"
+            android:textColor="#ffffffff"
+            android:onClick="wListener"
+            android:background="#ff0099cd" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_purple"
+            android:layout_weight="1.0"
+            android:text="Power"
+            android:textColor="#ffffffff"
+            android:onClick="aListener"
+            android:nestedScrollingEnabled="false" />
+
+    </LinearLayout>
+</LinearLayout>
