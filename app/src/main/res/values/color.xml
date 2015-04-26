@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="theme_primary">#9C27B0</color>
-    <color name="primary_dark">#7B1FA2</color>
+    <color name="primary_purple">#9C27B0</color>
+    <color name="dark_stat_purp">#7B1FA2</color>
+    <color name="purp_accent">#EA80FC</color>
+
+    <color name="dark_stat_red">#D32F2F</color>
+    <color name="primary_red">#F44336</color>
+    <color name="red_acc">#FF8A80</color>
+
+    <color name="dark_stat_blu">#1976D2</color>
+    <color name="primary_blu">#2196F3</color>
+    <color name="blu_acc">#448AFF</color>
 </resources>

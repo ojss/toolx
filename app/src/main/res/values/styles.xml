@@ -4,8 +4,22 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="windowActionModeOverlay">true</item>
-        <item name="colorPrimary">@color/theme_primary</item>
-        <item name="colorPrimaryDark">@color/primary_dark</item>
-        <!--<item name="colorAccent">@color/theme_accent</item>-->
+        <item name="colorPrimary">@color/primary_purple</item>
+        <item name="colorPrimaryDark">@color/dark_stat_purp</item>
+        <item name="colorAccent">@color/purp_accent</item>
+    </style>
+
+    <style name="CompassAct" parent="AppTheme">
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/primary_red</item>
+        <item name="colorPrimaryDark">@color/dark_stat_red</item>
+        <item name="colorAccent">@color/red_acc</item>
+    </style>
+
+    <style name="TempAct" parent="AppTheme">
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/primary_blu</item>
+        <item name="colorPrimaryDark">@color/dark_stat_blu</item>
+        <item name="colorAccent">@color/blu_acc</item>
     </style>
 </resources>

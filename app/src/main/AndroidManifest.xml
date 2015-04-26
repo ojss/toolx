@@ -27,7 +27,8 @@
         </activity>
         <activity
         android:name=".TemperatureActivity"
-        android:label="@string/title_activity_temperature" >
+        android:label="@string/title_activity_temperature"
+        android:theme="@style/TempAct">
         </activity>
         <activity
             android:name=".DistanceActivity"
@@ -44,7 +45,8 @@
 
         <activity
             android:name=".compass"
-            android:label="@string/title_activity_compass" >
+            android:label="@string/title_activity_compass"
+            android:theme="@style/CompassAct">
         </activity>
         <activity
             android:name=".flashlight"
