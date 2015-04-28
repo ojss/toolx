@@ -9,7 +9,7 @@
     <string name="title_activity_metal_detector">Metal Detector</string>
     <string name="title_activity_unit_convertor">Unit Convertor</string>
     <string name="title_activity_new">NewActivity</string>
-    <string name="blank"> </string>
+    <string name="blank"></string>
     <string name="cal1">1. Try to stay away from magnetic fields as far as you can.</string>
     <string name="cal2">2. Put the phone on a flat surface with the display pointing up.</string>
     <string name="cal3">3. Recalibrate the phones internal compass by waving the phone in a 8 figure motion.</string>

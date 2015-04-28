@@ -1,5 +1,9 @@
 package com.projectx.toolx;
 
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.app.DialogFragment;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
@@ -18,20 +22,18 @@ public class TemperatureActivity extends ActionBarActivity{
        }
 
     public void toCelsius(View v) {
-        double x=0,z=0;
+        double x,z;
         EditText inpuz = (EditText) findViewById(R.id.editPower);
         TextView ans = (TextView) findViewById(R.id.textView4);
-        ImageView imageView= (ImageView) findViewById(R.id.imageView3);
-        x=Double.parseDouble(inpuz.getText().toString());
+        ImageView imageView= (ImageView) findViewById(R.id.imageView3;
+            x = Double.parseDouble(inpuz.getText().toString());
         z=(x - 32.0f) * (5.0f / 9.0f);
         v.refreshDrawableState();
         if(z>40) {imageView.setImageResource(R.drawable.thermometer_2);}
         ans.setText(Double.toString(z));
-
-
     }
     public void toFahrenheit(View v) {
-        double x=0,z=0;
+        double x,z;
         EditText inpuz = (EditText) findViewById(R.id.editPower);
         ImageView imageView= (ImageView) findViewById(R.id.imageView3);
         TextView ans = (TextView) findViewById(R.id.textView4);
