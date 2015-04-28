@@ -25,7 +25,7 @@ public class TemperatureActivity extends ActionBarActivity{
         double x,z;
         EditText inpuz = (EditText) findViewById(R.id.editPower);
         TextView ans = (TextView) findViewById(R.id.textView4);
-        ImageView imageView= (ImageView) findViewById(R.id.imageView3;
+        ImageView imageView= (ImageView) findViewById(R.id.imageView3);
             x = Double.parseDouble(inpuz.getText().toString());
         z=(x - 32.0f) * (5.0f / 9.0f);
         v.refreshDrawableState();
